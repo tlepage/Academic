@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC1207E15EFC4FB003C94EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC1207D15EFC4FB003C94EB /* UIKit.framework */; };
+		0DC1208015EFC4FB003C94EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC1207F15EFC4FB003C94EB /* Foundation.framework */; };
+		0DC1208215EFC4FB003C94EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC1208115EFC4FB003C94EB /* CoreGraphics.framework */; };
+		0DC1208815EFC4FB003C94EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1208615EFC4FB003C94EB /* InfoPlist.strings */; };
+		0DC1208A15EFC4FB003C94EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1208915EFC4FB003C94EB /* main.m */; };
+		0DC1208E15EFC4FB003C94EB /* CustomPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1208D15EFC4FB003C94EB /* CustomPickerAppDelegate.m */; };
+		0DC1209115EFC4FB003C94EB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1208F15EFC4FB003C94EB /* MainStoryboard.storyboard */; };
+		0DC1209415EFC4FB003C94EB /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1209315EFC4FB003C94EB /* CustomPickerViewController.m */; };
+		0DC120A215EFC52C003C94EB /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1209B15EFC52C003C94EB /* bear.png */; };
+		0DC120A315EFC52C003C94EB /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1209C15EFC52C003C94EB /* cat.png */; };
+		0DC120A415EFC52C003C94EB /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1209D15EFC52C003C94EB /* dog.png */; };
+		0DC120A515EFC52C003C94EB /* goose.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1209E15EFC52C003C94EB /* goose.png */; };
+		0DC120A615EFC52C003C94EB /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1209F15EFC52C003C94EB /* mouse.png */; };
+		0DC120A715EFC52C003C94EB /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC120A015EFC52C003C94EB /* pig.png */; };
+		0DC120A815EFC52C003C94EB /* snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC120A115EFC52C003C94EB /* snake.png */; };
+		0DC120AB15EFC564003C94EB /* AnimalChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC120AA15EFC564003C94EB /* AnimalChooserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DC1207915EFC4FB003C94EB /* CustomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC1207D15EFC4FB003C94EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DC1207F15EFC4FB003C94EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DC1208115EFC4FB003C94EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DC1208515EFC4FB003C94EB /* CustomPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomPicker-Info.plist"; sourceTree = "<group>"; };
+		0DC1208715EFC4FB003C94EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DC1208915EFC4FB003C94EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DC1208B15EFC4FB003C94EB /* CustomPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomPicker-Prefix.pch"; sourceTree = "<group>"; };
+		0DC1208C15EFC4FB003C94EB /* CustomPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPickerAppDelegate.h; sourceTree = "<group>"; };
+		0DC1208D15EFC4FB003C94EB /* CustomPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPickerAppDelegate.m; sourceTree = "<group>"; };
+		0DC1209015EFC4FB003C94EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0DC1209215EFC4FB003C94EB /* CustomPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController.h; sourceTree = "<group>"; };
+		0DC1209315EFC4FB003C94EB /* CustomPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController.m; sourceTree = "<group>"; };
+		0DC1209B15EFC52C003C94EB /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		0DC1209C15EFC52C003C94EB /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		0DC1209D15EFC52C003C94EB /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		0DC1209E15EFC52C003C94EB /* goose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goose.png; sourceTree = "<group>"; };
+		0DC1209F15EFC52C003C94EB /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
+		0DC120A015EFC52C003C94EB /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		0DC120A115EFC52C003C94EB /* snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake.png; sourceTree = "<group>"; };
+		0DC120A915EFC564003C94EB /* AnimalChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimalChooserViewController.h; path = ../AnimalChooserViewController.h; sourceTree = "<group>"; };
+		0DC120AA15EFC564003C94EB /* AnimalChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimalChooserViewController.m; path = ../AnimalChooserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC1207615EFC4FB003C94EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC1207E15EFC4FB003C94EB /* UIKit.framework in Frameworks */,
+				0DC1208015EFC4FB003C94EB /* Foundation.framework in Frameworks */,
+				0DC1208215EFC4FB003C94EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC1206E15EFC4FB003C94EB = {
+			isa = PBXGroup;
+			children = (
+				0DC1208315EFC4FB003C94EB /* CustomPicker */,
+				0DC1207C15EFC4FB003C94EB /* Frameworks */,
+				0DC1207A15EFC4FB003C94EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC1207A15EFC4FB003C94EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1207915EFC4FB003C94EB /* CustomPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC1207C15EFC4FB003C94EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1207D15EFC4FB003C94EB /* UIKit.framework */,
+				0DC1207F15EFC4FB003C94EB /* Foundation.framework */,
+				0DC1208115EFC4FB003C94EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DC1208315EFC4FB003C94EB /* CustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1208C15EFC4FB003C94EB /* CustomPickerAppDelegate.h */,
+				0DC1208D15EFC4FB003C94EB /* CustomPickerAppDelegate.m */,
+				0DC120A915EFC564003C94EB /* AnimalChooserViewController.h */,
+				0DC120AA15EFC564003C94EB /* AnimalChooserViewController.m */,
+				0DC1208F15EFC4FB003C94EB /* MainStoryboard.storyboard */,
+				0DC1209215EFC4FB003C94EB /* CustomPickerViewController.h */,
+				0DC1209315EFC4FB003C94EB /* CustomPickerViewController.m */,
+				0DC1209A15EFC52C003C94EB /* Images */,
+				0DC1208415EFC4FB003C94EB /* Supporting Files */,
+			);
+			path = CustomPicker;
+			sourceTree = "<group>";
+		};
+		0DC1208415EFC4FB003C94EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1208515EFC4FB003C94EB /* CustomPicker-Info.plist */,
+				0DC1208615EFC4FB003C94EB /* InfoPlist.strings */,
+				0DC1208915EFC4FB003C94EB /* main.m */,
+				0DC1208B15EFC4FB003C94EB /* CustomPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DC1209A15EFC52C003C94EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1209B15EFC52C003C94EB /* bear.png */,
+				0DC1209C15EFC52C003C94EB /* cat.png */,
+				0DC1209D15EFC52C003C94EB /* dog.png */,
+				0DC1209E15EFC52C003C94EB /* goose.png */,
+				0DC1209F15EFC52C003C94EB /* mouse.png */,
+				0DC120A015EFC52C003C94EB /* pig.png */,
+				0DC120A115EFC52C003C94EB /* snake.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC1207815EFC4FB003C94EB /* CustomPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC1209715EFC4FB003C94EB /* Build configuration list for PBXNativeTarget "CustomPicker" */;
+			buildPhases = (
+				0DC1207515EFC4FB003C94EB /* Sources */,
+				0DC1207615EFC4FB003C94EB /* Frameworks */,
+				0DC1207715EFC4FB003C94EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPicker;
+			productName = CustomPicker;
+			productReference = 0DC1207915EFC4FB003C94EB /* CustomPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC1207015EFC4FB003C94EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CustomPicker;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tom LePage";
+			};
+			buildConfigurationList = 0DC1207315EFC4FB003C94EB /* Build configuration list for PBXProject "CustomPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DC1206E15EFC4FB003C94EB;
+			productRefGroup = 0DC1207A15EFC4FB003C94EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC1207815EFC4FB003C94EB /* CustomPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC1207715EFC4FB003C94EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC1208815EFC4FB003C94EB /* InfoPlist.strings in Resources */,
+				0DC1209115EFC4FB003C94EB /* MainStoryboard.storyboard in Resources */,
+				0DC120A215EFC52C003C94EB /* bear.png in Resources */,
+				0DC120A315EFC52C003C94EB /* cat.png in Resources */,
+				0DC120A415EFC52C003C94EB /* dog.png in Resources */,
+				0DC120A515EFC52C003C94EB /* goose.png in Resources */,
+				0DC120A615EFC52C003C94EB /* mouse.png in Resources */,
+				0DC120A715EFC52C003C94EB /* pig.png in Resources */,
+				0DC120A815EFC52C003C94EB /* snake.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC1207515EFC4FB003C94EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC1208A15EFC4FB003C94EB /* main.m in Sources */,
+				0DC1208E15EFC4FB003C94EB /* CustomPickerAppDelegate.m in Sources */,
+				0DC1209415EFC4FB003C94EB /* CustomPickerViewController.m in Sources */,
+				0DC120AB15EFC564003C94EB /* AnimalChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DC1208615EFC4FB003C94EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC1208715EFC4FB003C94EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0DC1208F15EFC4FB003C94EB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC1209015EFC4FB003C94EB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC1209515EFC4FB003C94EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0DC1209615EFC4FB003C94EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC1209815EFC4FB003C94EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPicker/CustomPicker-Prefix.pch";
+				INFOPLIST_FILE = "CustomPicker/CustomPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DC1209915EFC4FB003C94EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPicker/CustomPicker-Prefix.pch";
+				INFOPLIST_FILE = "CustomPicker/CustomPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC1207315EFC4FB003C94EB /* Build configuration list for PBXProject "CustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC1209515EFC4FB003C94EB /* Debug */,
+				0DC1209615EFC4FB003C94EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC1209715EFC4FB003C94EB /* Build configuration list for PBXNativeTarget "CustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC1209815EFC4FB003C94EB /* Debug */,
+				0DC1209915EFC4FB003C94EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DC1207015EFC4FB003C94EB /* Project object */;
+}

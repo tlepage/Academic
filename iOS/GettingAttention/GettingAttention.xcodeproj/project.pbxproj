@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAE773215EDAD130062970A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAE773115EDAD130062970A /* UIKit.framework */; };
+		0DAE773415EDAD130062970A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAE773315EDAD130062970A /* Foundation.framework */; };
+		0DAE773615EDAD130062970A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAE773515EDAD130062970A /* CoreGraphics.framework */; };
+		0DAE773C15EDAD130062970A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DAE773A15EDAD130062970A /* InfoPlist.strings */; };
+		0DAE773E15EDAD130062970A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE773D15EDAD130062970A /* main.m */; };
+		0DAE774215EDAD130062970A /* GettingAttentionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE774115EDAD130062970A /* GettingAttentionAppDelegate.m */; };
+		0DAE774515EDAD130062970A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAE774315EDAD130062970A /* MainStoryboard.storyboard */; };
+		0DAE774815EDAD130062970A /* GettingAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE774715EDAD130062970A /* GettingAttentionViewController.m */; };
+		0DAE775115EDAD3B0062970A /* alertsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DAE774F15EDAD3B0062970A /* alertsound.wav */; };
+		0DAE775215EDAD3B0062970A /* soundeffect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DAE775015EDAD3B0062970A /* soundeffect.wav */; };
+		0DAE775415EDAD7E0062970A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAE775315EDAD7E0062970A /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DAE772D15EDAD130062970A /* GettingAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAE773115EDAD130062970A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DAE773315EDAD130062970A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DAE773515EDAD130062970A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DAE773915EDAD130062970A /* GettingAttention-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GettingAttention-Info.plist"; sourceTree = "<group>"; };
+		0DAE773B15EDAD130062970A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DAE773D15EDAD130062970A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DAE773F15EDAD130062970A /* GettingAttention-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GettingAttention-Prefix.pch"; sourceTree = "<group>"; };
+		0DAE774015EDAD130062970A /* GettingAttentionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GettingAttentionAppDelegate.h; sourceTree = "<group>"; };
+		0DAE774115EDAD130062970A /* GettingAttentionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GettingAttentionAppDelegate.m; sourceTree = "<group>"; };
+		0DAE774415EDAD130062970A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0DAE774615EDAD130062970A /* GettingAttentionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GettingAttentionViewController.h; sourceTree = "<group>"; };
+		0DAE774715EDAD130062970A /* GettingAttentionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GettingAttentionViewController.m; sourceTree = "<group>"; };
+		0DAE774F15EDAD3B0062970A /* alertsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alertsound.wav; sourceTree = "<group>"; };
+		0DAE775015EDAD3B0062970A /* soundeffect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soundeffect.wav; sourceTree = "<group>"; };
+		0DAE775315EDAD7E0062970A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAE772A15EDAD130062970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAE775415EDAD7E0062970A /* AudioToolbox.framework in Frameworks */,
+				0DAE773215EDAD130062970A /* UIKit.framework in Frameworks */,
+				0DAE773415EDAD130062970A /* Foundation.framework in Frameworks */,
+				0DAE773615EDAD130062970A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAE772215EDAD130062970A = {
+			isa = PBXGroup;
+			children = (
+				0DAE773715EDAD130062970A /* GettingAttention */,
+				0DAE773015EDAD130062970A /* Frameworks */,
+				0DAE772E15EDAD130062970A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAE772E15EDAD130062970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAE772D15EDAD130062970A /* GettingAttention.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAE773015EDAD130062970A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DAE775315EDAD7E0062970A /* AudioToolbox.framework */,
+				0DAE773115EDAD130062970A /* UIKit.framework */,
+				0DAE773315EDAD130062970A /* Foundation.framework */,
+				0DAE773515EDAD130062970A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DAE773715EDAD130062970A /* GettingAttention */ = {
+			isa = PBXGroup;
+			children = (
+				0DAE774015EDAD130062970A /* GettingAttentionAppDelegate.h */,
+				0DAE774115EDAD130062970A /* GettingAttentionAppDelegate.m */,
+				0DAE774315EDAD130062970A /* MainStoryboard.storyboard */,
+				0DAE774E15EDAD3B0062970A /* Sounds */,
+				0DAE774615EDAD130062970A /* GettingAttentionViewController.h */,
+				0DAE774715EDAD130062970A /* GettingAttentionViewController.m */,
+				0DAE773815EDAD130062970A /* Supporting Files */,
+			);
+			path = GettingAttention;
+			sourceTree = "<group>";
+		};
+		0DAE773815EDAD130062970A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAE773915EDAD130062970A /* GettingAttention-Info.plist */,
+				0DAE773A15EDAD130062970A /* InfoPlist.strings */,
+				0DAE773D15EDAD130062970A /* main.m */,
+				0DAE773F15EDAD130062970A /* GettingAttention-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DAE774E15EDAD3B0062970A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0DAE774F15EDAD3B0062970A /* alertsound.wav */,
+				0DAE775015EDAD3B0062970A /* soundeffect.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAE772C15EDAD130062970A /* GettingAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAE774B15EDAD130062970A /* Build configuration list for PBXNativeTarget "GettingAttention" */;
+			buildPhases = (
+				0DAE772915EDAD130062970A /* Sources */,
+				0DAE772A15EDAD130062970A /* Frameworks */,
+				0DAE772B15EDAD130062970A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingAttention;
+			productName = GettingAttention;
+			productReference = 0DAE772D15EDAD130062970A /* GettingAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAE772415EDAD130062970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GettingAttention;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tom LePage";
+			};
+			buildConfigurationList = 0DAE772715EDAD130062970A /* Build configuration list for PBXProject "GettingAttention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DAE772215EDAD130062970A;
+			productRefGroup = 0DAE772E15EDAD130062970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAE772C15EDAD130062970A /* GettingAttention */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAE772B15EDAD130062970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAE773C15EDAD130062970A /* InfoPlist.strings in Resources */,
+				0DAE774515EDAD130062970A /* MainStoryboard.storyboard in Resources */,
+				0DAE775115EDAD3B0062970A /* alertsound.wav in Resources */,
+				0DAE775215EDAD3B0062970A /* soundeffect.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAE772915EDAD130062970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAE773E15EDAD130062970A /* main.m in Sources */,
+				0DAE774215EDAD130062970A /* GettingAttentionAppDelegate.m in Sources */,
+				0DAE774815EDAD130062970A /* GettingAttentionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DAE773A15EDAD130062970A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAE773B15EDAD130062970A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0DAE774315EDAD130062970A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAE774415EDAD130062970A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DAE774915EDAD130062970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DAE774A15EDAD130062970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAE774C15EDAD130062970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GettingAttention/GettingAttention-Prefix.pch";
+				INFOPLIST_FILE = "GettingAttention/GettingAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DAE774D15EDAD130062970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GettingAttention/GettingAttention-Prefix.pch";
+				INFOPLIST_FILE = "GettingAttention/GettingAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAE772715EDAD130062970A /* Build configuration list for PBXProject "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAE774915EDAD130062970A /* Debug */,
+				0DAE774A15EDAD130062970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAE774B15EDAD130062970A /* Build configuration list for PBXNativeTarget "GettingAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAE774C15EDAD130062970A /* Debug */,
+				0DAE774D15EDAD130062970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAE772415EDAD130062970A /* Project object */;
+}

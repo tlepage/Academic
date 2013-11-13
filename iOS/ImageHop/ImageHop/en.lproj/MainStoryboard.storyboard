@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--Image Hop View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ImageHopViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.jpg" id="nze-M2-bIK">
+                                <rect key="frame" x="0.0" y="59" width="320" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="frame-1.png" id="b3i-tI-NYE">
+                                <rect key="frame" x="53" y="66" width="214" height="230"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" image="frame-1.png" id="kaN-rW-Bob">
+                                <rect key="frame" x="10" y="140" width="135" height="139"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" image="frame-1.png" id="JRg-KM-K8u">
+                                <rect key="frame" x="-10" y="195" width="72" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" image="frame-1.png" id="eAs-q4-2DF">
+                                <rect key="frame" x="257" y="195" width="72" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" image="frame-1.png" id="1nN-Wg-z2a">
+                                <rect key="frame" x="176" y="140" width="135" height="139"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.25" maxValue="1.75" continuous="NO" id="Twz-uW-D00">
+                                <rect key="frame" x="96" y="309" width="206" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="setSpeed:" destination="2" eventType="valueChanged" id="Gn9-JI-iq4"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Speed:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="zDp-H8-qMX">
+                                <rect key="frame" x="20" y="309" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" continuous="NO" autorepeat="NO" wraps="YES" value="1" minimumValue="0.25" maximumValue="1.75" stepValue="0.25" id="K6D-Z8-ZhX">
+                                <rect key="frame" x="152" y="339" width="94" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="setIncrement:" destination="2" eventType="valueChanged" id="LS1-ug-4Nz"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Maximum Hops Per Second:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gAd-qm-Rqk">
+                                <rect key="frame" x="20" y="20" width="214" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="RBA-bI-e2l">
+                                <rect key="frame" x="242" y="20" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="abr-9c-72N">
+                                <rect key="frame" x="105" y="403" width="110" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Hop!">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleAnimation:" destination="2" eventType="touchUpInside" id="bWC-rK-P5j"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57647061347961426" green="1" blue="0.68627452850341797" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="bunnyView1" destination="b3i-tI-NYE" id="oBw-xL-2VJ"/>
+                        <outlet property="bunnyView2" destination="kaN-rW-Bob" id="K0C-OW-bnX"/>
+                        <outlet property="bunnyView3" destination="JRg-KM-K8u" id="hpz-qP-nt7"/>
+                        <outlet property="bunnyView4" destination="1nN-Wg-z2a" id="DPN-Yz-hsR"/>
+                        <outlet property="bunnyView5" destination="eAs-q4-2DF" id="B03-dG-8Ak"/>
+                        <outlet property="hopsPerSecond" destination="RBA-bI-e2l" id="dTg-H9-zr7"/>
+                        <outlet property="speedSlider" destination="Twz-uW-D00" id="nvV-N0-ykJ"/>
+                        <outlet property="speedStepper" destination="K6D-Z8-ZhX" id="ae0-8y-lFU"/>
+                        <outlet property="toggleButton" destination="abr-9c-72N" id="F7a-T4-Rlv"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="2398" height="1799"/>
+        <image name="frame-1.png" width="320" height="320"/>
+    </resources>
+    <classes>
+        <class className="ImageHopViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImageHopViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="setIncrement:"/>
+                <relationship kind="action" name="setSpeed:"/>
+                <relationship kind="action" name="toggleAnimation:"/>
+                <relationship kind="outlet" name="bunnyView1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bunnyView2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bunnyView3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bunnyView4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="bunnyView5" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="hopsPerSecond" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="speedSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="speedStepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="toggleButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,31 @@
+<projectDescription>
+  <id>1278619013268</id>
+  <name>Puggle</name>
+  <asVersion>0</asVersion>
+  <boundTemplate>file:///C|/Users/tlepag1/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+  <classTemplate>file:///C|/Users/tlepag1/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+  <classPath>.</classPath>
+  <defaultApp/>
+  <rootURI>file:///C|/flash/puggle%20-%2020100722/</rootURI>
+  <flexSDK/>
+  <sources editable="false"/>
+  <libraries editable="false"/>
+  <externalLibraries editable="false"/>
+  <compileList editable="false">
+    <uri label="Puggle.fla">file:///C|/flash/puggle/Puggle.fla</uri>
+  </compileList>
+  <recentFiles editable="false">
+    <uri label="PuggleContactListener.as">file:///C|/flash/puggle%20-%2020100722/PuggleContactListener.as</uri>
+    <uri label="ArbitraryStaticActor.as">file:///C|/flash/puggle%20-%2020100722/ArbitraryStaticActor.as</uri>
+    <uri label="BallEvent.as">file:///C|/flash/puggle%20-%2020100722/BallEvent.as</uri>
+    <uri label="Director.as">file:///C|/flash/puggle%20-%2020100722/Director.as</uri>
+    <uri label="Puggle.as">file:///C|/flash/puggle%20-%2020100722/Puggle.as</uri>
+    <uri label="Camera.as">file:///C|/flash/puggle%20-%2020100722/Camera.as</uri>
+    <uri label="PhysicsVals.as">file:///C|/flash/puggle%20-%2020100722/PhysicsVals.as</uri>
+    <uri label="TimeMaster.as">file:///C|/flash/puggle%20-%2020100722/TimeMaster.as</uri>
+    <uri label="Puggle.fla">file:///C|/flash/puggle - 20100722/Puggle.fla</uri>
+    <uri label="Puggle.fla">file:///C|/flash/puggle/Puggle.fla</uri>
+    <uri label="Puggle.as">file:///C|/flash/puggle/Puggle.as</uri>
+  </recentFiles>
+  <locations editable="false"/>
+</projectDescription>

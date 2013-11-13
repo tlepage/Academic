@@ -1,0 +1,28 @@
+<projectDescription>
+  <id>1274273544794</id>
+  <name>Pong</name>
+  <asVersion>0</asVersion>
+  <boundTemplate>file:///C|/Users/tlepag1/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+  <classTemplate>file:///C|/Users/tlepag1/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+  <classPath>.</classPath>
+  <defaultApp>file:///C|/flash/Pong/Pong.fla</defaultApp>
+  <rootURI>file:///C|/flash/Pong/</rootURI>
+  <flexSDK/>
+  <sources editable="false"/>
+  <libraries editable="false"/>
+  <externalLibraries editable="false"/>
+  <compileList editable="false"/>
+  <recentFiles editable="false">
+    <uri label="Ball.as">file:///C|/flash/Pong/Ball.as</uri>
+    <uri label="Main.as">file:///C|/flash/Pong/Main.as</uri>
+    <uri label="Pong.fla">file:///C|/flash/Pong/Pong.fla</uri>
+    <uri label="Boundary.as">file:///C|/flash/Pong/Boundary.as</uri>
+    <uri label="Player.as">file:///C|/flash/Pong/Player.as</uri>
+    <uri label="ParticleSystem.as">file:///C|/flash/Pong/ParticleSystem.as</uri>
+    <uri label="Particle.as">file:///C|/flash/Pong/Particle.as</uri>
+    <uri label="Table.as">file:///C|/flash/Pong/Table.as</uri>
+    <uri label="Pong.swf">file:///C|/flash/Pong/Pong.swf</uri>
+    <uri label="Paddle.as">file:///C|/flash/Pong/Paddle.as</uri>
+  </recentFiles>
+  <locations editable="false"/>
+</projectDescription>
