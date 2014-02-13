@@ -1,0 +1,34 @@
+Thomas LePage
+CSE 4310
+Assignment 2
+Problem 2A
+
+Test for Test1A.java:
+Number of Lines: 99
+Pass(is File): true
+Pass(correct line count): true
+
+Test for Test2A.java:
+Number of Lines: 34
+Pass(is File): true
+Pass(correct line count): true
+
+Test for List.java:
+Number of Lines: 55
+Pass(is File): true
+Pass(correct line count): true
+
+Test for LineScanner.java:
+Number of Lines: 60
+Pass(is File): true
+Pass(correct line count): true
+
+Test for non-existing file:
+Number of Lines: 0
+Pass(is File): false
+Pass(correct line count): true
+
+Test for empty file:
+Number of Lines: 0
+Pass(is File): true
+Pass(correct line count): true
